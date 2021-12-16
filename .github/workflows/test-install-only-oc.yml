@@ -1,10 +1,6 @@
-name: Install from Mirror Example
+name: Install OC Cache and No-Cache
 on:
-  push:
-  workflow_dispatch:
-  pull_request:
-  schedule:
-    - cron: '0 0 * * *'  # every day at midnight
+  push: 
 
 env:
   SOURCE: mirror
